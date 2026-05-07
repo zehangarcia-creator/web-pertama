@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+body {
+    background: #f4f4f4;
+}
+
+.foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Navbar */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background: #333;
+    color: white;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Section */
+section {
+    padding: 40px;
+}
+
+/* Profil */
+.profil-container {
+    display: flex;
+    gap: 20px;
+}
+
+.foto {
+    width: 150px;
+    height: 150px;
+    background: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.data {
+    background: white;
+    padding: 20px;
+}
+
+/* Skill */
+.skill-box {
+    display: flex;
+    gap: 15px;
+}
+
+.skill-box div {
+    background: #333;
+    color: white;
+    padding: 10px;
+}
+
+/* Galeri */
+.galeri-container {
+    display: flex;
+    gap: 10px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: gray;
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+input, textarea {
+    margin: 5px 0;
+    padding: 10px;
+}
+
+button {
+    background: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+}
+
